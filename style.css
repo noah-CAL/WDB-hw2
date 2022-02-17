@@ -49,6 +49,10 @@
   .threevert {
     height: 33.3%;
   }
+
+  .sixvert {
+    height: 16.6%;
+  }
   
   .threehoriz {
     width: 33.3%;
@@ -76,7 +80,11 @@
   .red {
     background-color: red;
   }
-  
+
+  .darkred {
+    background-color: rgb(224, 26, 26);
+  }
+
   .orange {
     background-color: orange;
   }
