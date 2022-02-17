@@ -51,7 +51,7 @@
   }
 
   .sixvert {
-    height: 16.666%;
+    height: 16.666666%;
   }
   
   .threehoriz {
@@ -73,6 +73,17 @@
     position: relative;
     left: 85px;
     top: 50px;
+  }
+
+  .center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode:exclusion;
+  }
+
+  #flag-eagle {
+    width: 100%;
   }
   
   /* Colors/ Feel free to add your own! */
@@ -96,6 +107,10 @@
   .green {
     background-color: green;
   }
+
+  .darkgreen {
+      background-color: darkgreen;
+  }
   
   .blue {
     background-color: blue;
@@ -111,4 +126,8 @@
   
   .white {
     background-color: #fff;
+  }
+
+  .grey {
+      background-color: #eeeeee;
   }
